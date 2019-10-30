@@ -1,0 +1,4 @@
+The 'demo.png' is grayscale verion of 'Pentax_OptioA40_2_31736.JPG' in DID
+with rgb2gray() function of Matlab.
+
+The 'demoPS.png' is forged by duplicating the tower in the 'demo.png'
