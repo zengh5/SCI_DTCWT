@@ -1,0 +1,4 @@
+Most the functions here are directly download from the DDE lab(http://dde.binghamton.edu/download/camera_fingerprint/)
+dethighlightBold.m  Highlight the localization results. Provided by M. Stamm.
+denC2D_dwt.m        Image denoising with DTCWT. Modified based on the public codes of 
+                    Prof. Ivan Selesnick (http://eeweb.poly.edu/iselesni/WaveletSoftware/) 
