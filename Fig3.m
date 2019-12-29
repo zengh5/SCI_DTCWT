@@ -13,7 +13,7 @@ clean = clean(351:351+127,201:201+127);  % X Fig. 2(a)
 % figure,
 % imshow(uint8(clean),'border','tight');
 % title('Clean image')
-sigma = 4;     
+sigma = 5;     
 L = 4;                                   % decomposition level
 iter = 500;
 SimilarityO = zeros(size(clean));
@@ -32,7 +32,7 @@ for i = 1:iter
     dwtmode('per')
     denoised_dtcwt = denC2D_dwt(imx,sigma);
     Noisex_C2Dper = imx-denoised_dtcwt;    
-%     %%%%%%%%%%%%%%%%
+%   %%%%%%%%%%%%%%%%
     dwtmode('symw')
     denoised_dtcwt = denC2D_dwt(imx,sigma);
     Noisex_C2Dsymw = imx-denoised_dtcwt;
