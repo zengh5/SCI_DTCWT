@@ -13,7 +13,7 @@ clean = clean(351:351+127,201:201+127);  % X Fig. 2(a)
 figure,subplot(221)
 imshow(uint8(clean),'border','tight');
 title('Clean image')
-sigma = 4;    
+sigma = 5;    
 % set sigma = 20 to highlight the difference between DWT and DTCWT   
 L = 4;                                   % decomposition level
 randn('seed',1000); 
