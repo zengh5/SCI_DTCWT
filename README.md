@@ -9,7 +9,7 @@ Homepage: http://www.escience.cn/people/Zenghui
 usage：
     Run Figx.m to reproduce corresponding results in our paper. The code has been verified on Matlab 2015a, Windows 10  64bit
 # History
-According to the suggestion of M. Goljan, we rewrite some used functions for speed. The updated version denC2D_fast() should give exactly the same result as denC2D_dwt(). April 9th, 2020, at Binghamton University, SUNY.
+According to the suggestion of M. Goljan, we rewrite some used functions for speed. The updated version denC2D_fast() (only for dwtmode('symw'))should give exactly the same result as denC2D_dwt() . April 9th, 2020, at Binghamton University, SUNY.
 
 ## Disclaimer notice ##
     We public this code solely for the convenience of researchers to reproduce our idea accurately and rapidly. Hence, it is for academic use only.
