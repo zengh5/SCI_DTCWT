@@ -2,7 +2,7 @@
 Source camera identification with dual-tree complex wavelet transform
 Matlab codes for reproduce the result of 
 [1] Zeng H, Wan Y, Deng K, Peng A, Source Camera Identification With Dual-Tree Complex Wavelet Transform (J). IEEE Access 2020, 8, 18874-18883. 
-Homepage: http://teacher.swust.edu.cn/jsjkx/ch2_en/main.htm  
+Homepage: https://cs.swust.edu.cn/staff/p/zenghui  
     Contact: zengh5@mail2.sysu.edu.cn
 
 usage：
